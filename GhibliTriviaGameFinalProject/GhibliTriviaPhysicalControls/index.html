@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+      <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <script language="javascript" type="text/javascript" src="p5.serialport.js"></script>
+  </head>
+  
+  <body>
+      <script src="sketch.js"></script>
+   
+    <div class="container">
+  <div class="btn-holder">
+   <button class="button button2" onclick="answerA()">A.
+    </button>
+    <button class="button button2" onclick="answerB()">B.
+    </button>
+    <button class="button button2" onclick="answerC()">C.
+    </button>
+    <button class="button button2" onclick="answerD()">D.
+    </button>
+    <button class="button button4" onclick="generateQuestion()">Start
+    </button>
+    
+  </div>
+</div>
+  <p id="output"></p>
+  <img class="img success" id="success" src="correct.png" width="250" height="200">
+  <img class="img failure" id="failure" src="error.png" width="200" height="200">
+  <img class="img totoro" id="totoro" src="totoroBranch.png">
+  <img class="img victory" id="victory" src="victory.png" width="600" height="430">
+  <img class="img noFace" id="noFace" src="noFace.webp" height="500" width="500">
+  <img class="img defeat" id="defeat" src="youDied.jpg" width="900" height="1080">
+  <audio id="howl">
+    <source src="howl.mp3">
+  </audio>
+  <audio id="kiritsugu">
+    <source src="kiritsugu.mp3">
+  </audio>
+  
+
+</body></html>
